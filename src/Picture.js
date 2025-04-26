@@ -4,7 +4,7 @@ import styles from './Picture.module.css'
 
 function Picture(){
     return <>
-    <img className={styles.placing} src={profile_pic} alt="my profile pic" height={250} width={250}/></>
+    <img className={styles.placing} src={profile_pic} alt="my profile pic" height={250} width={200}/></>
 }
 
 export default Picture;
